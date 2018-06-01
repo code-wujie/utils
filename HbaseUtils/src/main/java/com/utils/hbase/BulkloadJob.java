@@ -75,15 +75,14 @@ public class BulkloadJob {
     }
 
     public static void main(String[] args) {
-        if (args.length < 3) {
-            logger.error("参数不正确，输入路径 输出路径 tablename");
-        } else if(args.length==3){
+        if (args.length < 2) {
+            logger.error("参数不正确，输入路径 输出路径 and if you want to setting tablename");
+        } else if(args.length==2){
             String inpath = args[0];
             String outpath = args[1];
             String table=null;
             if(ContentConf.getOtherConf().containsKey("table")){
                 table=ContentConf.getOtherConf().get("table");
-
             }else{
                 table="test";
             }
