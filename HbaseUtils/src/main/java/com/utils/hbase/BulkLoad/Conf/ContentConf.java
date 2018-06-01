@@ -1,4 +1,4 @@
-package com.utils.hbase.Conf;
+package com.utils.hbase.BulkLoad.Conf;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HBaseConfiguration;

@@ -1,11 +1,9 @@
-package com.utils.hbase;
-
-import com.utils.hbase.Conf.ContentConf;
-import com.utils.hbase.mapper.HfileMapper;
+package com.utils.hbase.BulkLoad;
+import com.utils.hbase.BulkLoad.mapper.*;
+import com.utils.hbase.BulkLoad.Conf.*;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FsShell;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hbase.client.HTable;
 import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.io.ImmutableBytesWritable;

@@ -1,7 +1,6 @@
-package com.utils.hbase.mapper;
+package com.utils.hbase.BulkLoad.mapper;
 
-
-import com.utils.hbase.Conf.ContentConf;
+import com.utils.hbase.BulkLoad.Conf.*;
 import com.wujie.util.JsonUtils;
 import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.io.ImmutableBytesWritable;
