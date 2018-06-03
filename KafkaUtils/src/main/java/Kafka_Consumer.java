@@ -9,6 +9,7 @@ import java.util.*;
 
 /**
  * Created by WJ on 2017/11/13.
+ * 如没有特殊要求，建议使用高阶API消费kafka的数据。
  */
 public class Kafka_Consumer {
     public static void main(String[] args) {
