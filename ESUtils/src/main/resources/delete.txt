@@ -1,0 +1,23 @@
+//根据id删除数据返回结果
+{
+    "_index":"test-index",
+    "_type":"index",
+    "_id":"078ea4bf-67db-421d-8e81-0f8e27f7426a",
+    "_version":2,
+    "result":"deleted",
+    "_shards":{
+        "total":2,
+        "successful":1,
+        "failed":0
+    },
+    "_seq_no":1,
+    "_primary_term":2
+}
+
+//没有数据的时候，删除返回结果如下：
+{
+    "_index":"test-index",
+    "_type":"index",
+    "_id":"ae2b0d93-5048-400b-bf94-66864d57af3e",
+    "found":false
+}

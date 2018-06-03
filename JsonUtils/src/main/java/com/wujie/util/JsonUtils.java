@@ -1,7 +1,6 @@
 package com.wujie.util;
 
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.TypeReference;
 
 import java.util.List;
@@ -12,6 +11,15 @@ import java.util.Map;
  */
 public class JsonUtils {
 
+
+    public static boolean BeanToJsonAsBool(Object o){
+        try {
+            JSON.toJSONString(o);
+            return true;
+        }catch (Exception e){
+            return false;
+        }
+    }
 
     /**
      * 将对象转为json字符串

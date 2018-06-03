@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../utils/ESUtils/ESUtils.iml" filepath="$PROJECT_DIR$/../utils/ESUtils/ESUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../utils/HbaseUtils/HbaseUtils.iml" filepath="$PROJECT_DIR$/../utils/HbaseUtils/HbaseUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../utils/HdfsUtils/HdfsUtils.iml" filepath="$PROJECT_DIR$/../utils/HdfsUtils/HdfsUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../utils/HiveUtils/HiveUtils.iml" filepath="$PROJECT_DIR$/../utils/HiveUtils/HiveUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../utils/JsonUtils/JsonUtils.iml" filepath="$PROJECT_DIR$/../utils/JsonUtils/JsonUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../utils/KafkaUtils/KafkaUtils.iml" filepath="$PROJECT_DIR$/../utils/KafkaUtils/KafkaUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../utils/utils.iml" filepath="$PROJECT_DIR$/../utils/utils.iml" />
+    </modules>
+  </component>
+</project>
